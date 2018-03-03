@@ -10,7 +10,7 @@ import axios from '../../axios-orders';
 import * as actions from '../../store/actions/index';
 import Spinner from '../../components/UI/Spinner/Spinner';
 
-class BurgerBuilder extends Component {
+export class BurgerBuilder extends Component {
 
     state = {
         purchasing: false
